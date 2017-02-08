@@ -1,7 +1,7 @@
-import org.telegrambots.api.methods.send.SendMessage;
-import org.telegrambots.api.objects.Message;
-import org.telegrambots.api.objects.Update;
-import org.telegrambots.api.bots.TelegramLongPollingBot;
+import org.telegram.telegrambots.api.methods.send.SendMessage;
+import org.telegram.telegrambots.api.objects.Message;
+import org.telegram.telegrambots.api.objects.Update;
+import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 
 public class TelegramBot extends TelegramLongPollingBot {
     @Override
