@@ -6,7 +6,7 @@
 ##課程內容
 
 * Lesson 1: [基礎環境配置](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%201)
-* Lesson 2: pgo遊戲登錄及tg機器人功能玩法
+* Lesson 2: [pgo遊戲登錄及tg機器人功能玩法](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%202)
 * Lesson 3: 帳號IV查詢
 * Lesson 4: 飛點遇敵及查看附近精靈
 * Lesson 5: 飛點轉stop
