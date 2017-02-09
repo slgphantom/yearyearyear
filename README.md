@@ -1,6 +1,6 @@
 #齊齊學習寫外掛
-* 暫時先用Pokemon Go 0.45api教學(現階段實測比055安全)
-* java語言
+* 暫時先用Pokemon Go 0.45 api教學(現階段實測比0.55安全)
+* java語言 [[學習按我](https://www.codecademy.com/learn/learn-java)]
 * 自由發揮
 
 ##課程內容
