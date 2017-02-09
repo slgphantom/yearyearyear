@@ -34,7 +34,7 @@ public class Example{
          * -暫時只用單線程登陸
          * ====================================================
          */
-    go = new LinkedList<PokemonGo>;
+    go = new LinkedList<PokemonGo>();
         for(int x=0;x < account.length;x++){
           OkHttpClient http = new OkHttpClient();
       go.add(new PokemonGo(http));
