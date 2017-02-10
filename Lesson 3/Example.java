@@ -11,25 +11,25 @@ import okhttp3.OkHttpClient;
 
 public class Example{
 	/*
-	 * ¶¨Áx¶ş¾SÙ~Ì–”µ½M
+	 * å®šç¾©äºŒç¶­è³¬è™Ÿæ•¸çµ„
 	 */
 	public static String[][] account = {
-			{"HX48761191","a6986601"}
+			{"<username>","<password>"}
 	};
 	/*
-	 * Õ{ÓÃpokemon go api
+	 * èª¿ç”¨pokemon go api
 	 */
 	public static LinkedList<PokemonGo> go;
 	
 	
 	/*
-	 * ³ÌĞòÖ÷Èë¿Ú 
+	 * ç¨‹åºä¸»å…¥å£ 
 	 */
 	public static void main(String args[]) throws Exception{
 		/*
          * ====================================================
-         * pokemon go µÇê‘Ù~Ì–²¿·Ö
-         * -•º•rÖ»ÓÃ†Î¾€³ÌµÇê‘
+         * pokemon go ç™»é™¸è³¬è™Ÿéƒ¨åˆ†
+         * -æš«æ™‚åªç”¨å–®ç·šç¨‹ç™»é™¸
          * ====================================================
          */
 		go = new LinkedList<PokemonGo>();
@@ -46,19 +46,19 @@ public class Example{
 		
 		
 		/*
-		 * „“½¨Ò»‚€ĞÂµÄtelegramAPI ÔÚƒÈ´æÑeÃæ
+		 * å‰µå»ºä¸€å€‹æ–°çš„telegramAPI åœ¨å…§å­˜è£¡é¢
 		 */
 		TelegramBotsApi tgBot = new TelegramBotsApi();		
 		/*
-		 * ³õÊ¼»¯telegramAPIµÄËùÓĞº¯”µ
+		 * åˆå§‹åŒ–telegramAPIçš„æ‰€æœ‰å‡½æ•¸
 		 */
 		ApiContextInitializer.init();
 		/*
-		 *try{}catch(Exception e) ÊÇÒ»½M—l¼ş ´ú±í‡LÔ‡ Èç¹ûÓĞ³ÌĞòåeÕ` ˆÌĞĞcatch Èç›]ÓĞ catch„t²»•şˆÌĞĞ
+		 *try{}catch(Exception e) æ˜¯ä¸€çµ„æ¢ä»¶ ä»£è¡¨å˜—è©¦ å¦‚æœæœ‰ç¨‹åºéŒ¯èª¤ åŸ·è¡Œcatch å¦‚æ²’æœ‰ catchå‰‡ä¸æœƒåŸ·è¡Œ
 		 */
         try {
         	/*
-        	 * °Ñ„“½¨³öíµÄtelegramAPIÅc™CÆ÷ÈËßB½Ó
+        	 * æŠŠå‰µå»ºå‡ºä¾†çš„telegramAPIèˆ‡æ©Ÿå™¨äººé€£æ¥
         	 */
         	tgBot.registerBot(new TelegramBot());
         } catch (TelegramApiException e) {
