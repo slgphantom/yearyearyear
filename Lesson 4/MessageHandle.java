@@ -110,29 +110,29 @@ public class MessageHandle{
 	
 	public static void findMon(PokemonGo go, double x, double y){
 		go.setLocation(x, y, 1);
-		System.out.println("ïwÍù×ø˜ËµØüc " + "[" + x + "£¬" + y + "]");
+		System.out.println("é£›å¾€åæ¨™åœ°é» " + "[" + x + "ï¼Œ" + y + "]");
 		String str = "";
 		try {
 			for(int i=0; i < go.getMap().getCatchablePokemon().size(); i++){
 				EncounterResult encResult = go.getMap().getCatchablePokemon().get(i).encounterPokemon();
 				if(encResult.wasSuccessful()){
-					System.out.println("ÕÒµ½¾«ì` " + go.getMap().getCatchablePokemon().get(i).getPokemonId() );
-					str += "×ø˜Ë : ";
+					System.out.println("æ‰¾åˆ°ç²¾éˆ " + go.getMap().getCatchablePokemon().get(i).getPokemonId() );
+					str += "åæ¨™ : ";
 					str += go.getMap().getCatchablePokemon().get(i).getLatitude() + ",";
 					str += go.getMap().getCatchablePokemon().get(i).getLongitude();
 					str += "\n";
-					str += "¾«ì` : ";
+					str += "ç²¾éˆ : ";
 					str += go.getMap().getCatchablePokemon().get(i).getPokemonId();
 					str += " [CP : " + encResult.getPokemonData().getCp() + "]";
 					str += "\n";
-					str += "Èı‡ú : " ;
+					str += "ä¸‰åœ : " ;
 					str += encResult.getPokemonData().getIndividualAttack() + " / ";
 					str += encResult.getPokemonData().getIndividualDefense() + " / ";
 					str += encResult.getPokemonData().getIndividualStamina();
 					str += "\n";
-					str += "¼¼ÄÜ1 : " + encResult.getPokemonData().getMove1();
+					str += "æŠ€èƒ½1 : " + encResult.getPokemonData().getMove1();
 					str += "\n";
-					str += "¼¼ÄÜ2 : " + encResult.getPokemonData().getMove2();
+					str += "æŠ€èƒ½2 : " + encResult.getPokemonData().getMove2();
 					str += "\n\n";
 				}
 			}
