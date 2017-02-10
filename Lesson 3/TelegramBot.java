@@ -19,6 +19,6 @@ public class TelegramBot extends TelegramLongPollingBot {
 	}
 	@Override
 	public String getBotToken() {
-		return "330912352:AAEnMga5QUDfrApv1SuZwKmy4dhbPRr00PE";
+		return "<token>";
 	}
 }
