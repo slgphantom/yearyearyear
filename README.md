@@ -11,9 +11,10 @@
 * Lesson 4: [飛點遇敵及查看附近精靈](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%204)
 * Lesson 5: [飛點轉stop](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%205)
 * Lesson 6: [飛點查看附近道館](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%206)
-* Lesson 7: 捕捉精靈
+* Lesson 7: [捕捉精靈](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%207)
 * Lesson 8: captcha監控
 * 
+
 
 * 不定時開課 課餘可互相交流 一起進步
 * [Telegram Group](https://t.me/joinchat/AAAAAEK4vCfehuLzg6J-JA)
