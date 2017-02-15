@@ -9,8 +9,8 @@
 * Lesson 2: [pgo遊戲登錄及tg機器人功能玩法](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%202)
 * Lesson 3: [帳號IV查詢](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%203)
 * Lesson 4: [飛點遇敵及查看附近精靈](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%204)
-* Lesson 5: 飛點轉stop
-* Lesson 6: 飛點查看附近道館
+* Lesson 5: [飛點轉stop](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%205)
+* Lesson 6: [飛點查看附近道館](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%206)
 * Lesson 7: 捕捉精靈
 * Lesson 8: captcha監控
 * 
