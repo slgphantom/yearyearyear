@@ -12,7 +12,7 @@
 * Lesson 5: [飛點轉stop](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%205)
 * Lesson 6: [飛點查看附近道館](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%206)
 * Lesson 7: [捕捉精靈](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%207)
-* Lesson 8: captcha監控
+* Lesson 8: [captcha監控](https://github.com/slgphantom/yearyearyear/tree/master/Lesson%207)
 * 
 
 
